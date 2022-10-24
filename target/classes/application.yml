@@ -1,0 +1,15 @@
+server:
+  error:
+    include-binding-errors: always
+    include-message: always
+    include-exception: true
+    include-stacktrace: always
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pcmarket
+    username: postgres
+    password: java
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
