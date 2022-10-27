@@ -28,7 +28,7 @@ public class Product {
     @NotNull
     private BigDecimal price;
 
-    @OneToOne
+    @ManyToOne
     @NotNull
     private Category category;
 

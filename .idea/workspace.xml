@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68b5e5e3-201f-4e31-9f43-d1dcef04af5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/controllers/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1bb4c51-8718-48cf-97c9-93d14835b3bf.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1bb4c51-8718-48cf-97c9-93d14835b3bf/storage_v2/_src_/database/pcmarket.7x8Zpw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1bb4c51-8718-48cf-97c9-93d14835b3bf/storage_v2/_src_/database/pcmarket.7x8Zpw/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1bb4c51-8718-48cf-97c9-93d14835b3bf/storage_v2/_src_/database/pcmarket.7x8Zpw/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1bb4c51-8718-48cf-97c9-93d14835b3bf/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1bb4c51-8718-48cf-97c9-93d14835b3bf/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1bb4c51-8718-48cf-97c9-93d14835b3bf/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pcmarket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pcmarket.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +72,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/user/Desktop/Java Kurs/spring-projects/pcmarket/pcmarket",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "e2ad60da6851b22b5a273fb2a0383184"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -95,6 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666607159258</updated>
       <workItem from="1666607160726" duration="5715000" />
+      <workItem from="1666903902280" duration="327000" />
     </task>
     <servers />
   </component>
