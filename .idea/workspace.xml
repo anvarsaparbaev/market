@@ -5,15 +5,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68b5e5e3-201f-4e31-9f43-d1dcef04af5f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1bb4c51-8718-48cf-97c9-93d14835b3bf.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1bb4c51-8718-48cf-97c9-93d14835b3bf/storage_v2/_src_/database/pcmarket.7x8Zpw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1bb4c51-8718-48cf-97c9-93d14835b3bf/storage_v2/_src_/database/pcmarket.7x8Zpw/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1bb4c51-8718-48cf-97c9-93d14835b3bf/storage_v2/_src_/database/pcmarket.7x8Zpw/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1bb4c51-8718-48cf-97c9-93d14835b3bf/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1bb4c51-8718-48cf-97c9-93d14835b3bf/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1bb4c51-8718-48cf-97c9-93d14835b3bf/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/controller/AttachmentContentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/controller/AttachmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/payload/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/repository/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/repository/AttachmentContentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/repository/AttachmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/repository/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/repository/BrandRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/repository/CardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/repository/CityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/repository/CountryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/repository/RegionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/repository/ReviewRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/repository/WorkSupplierRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/service/AttachmentContentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/service/AttachmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d855019c-a01a-404f-8b52-dd8fc2a4e769.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d855019c-a01a-404f-8b52-dd8fc2a4e769/storage_v2/_src_/database/pcmarket.7x8Zpw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d855019c-a01a-404f-8b52-dd8fc2a4e769/storage_v2/_src_/database/pcmarket.7x8Zpw/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d855019c-a01a-404f-8b52-dd8fc2a4e769/storage_v2/_src_/database/pcmarket.7x8Zpw/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d855019c-a01a-404f-8b52-dd8fc2a4e769/storage_v2/_src_/database/pcmarket.7x8Zpw/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pcmarket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pcmarket.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcmarket/controllers/AccountController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcmarket/controllers/BlogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Brand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Picture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Attachment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/PictureContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/AttachmentContent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Region.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/WorkSupplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pcmarket/models/WorkSupplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcmarket/repositories/BlogRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcmarket/services/BlogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcmarket/templates/ERole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcmarket/controllers/BlogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcmarket/models/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pcmarket/models/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcmarket/repositories/BlogRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcmarket/services/BlogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pcmarket/templates/ERole.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +70,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -66,26 +113,35 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/user/Desktop/Java Kurs/spring-projects/pcmarket/pcmarket",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "e2ad60da6851b22b5a273fb2a0383184"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Java Kurs/spring-projects/pcmarket/pcmarket&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;e2ad60da6851b22b5a273fb2a0383184&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pcmarket.repository" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="PcmarketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="pcmarket" />
@@ -104,7 +160,16 @@
       <option name="presentableId" value="Default" />
       <updated>1666607159258</updated>
       <workItem from="1666607160726" duration="5715000" />
-      <workItem from="1666903902280" duration="327000" />
+      <workItem from="1666903902280" duration="509000" />
+      <workItem from="1667485249025" duration="950000" />
+      <workItem from="1667830143001" duration="386000" />
+      <workItem from="1667830546947" duration="58000" />
+      <workItem from="1667921516602" duration="344000" />
+      <workItem from="1668084885665" duration="692000" />
+      <workItem from="1668158811928" duration="124000" />
+      <workItem from="1668271885187" duration="682000" />
+      <workItem from="1668504476025" duration="734000" />
+      <workItem from="1668505248604" duration="6818000" />
     </task>
     <servers />
   </component>

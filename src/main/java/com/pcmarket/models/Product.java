@@ -17,7 +17,7 @@ public class Product {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Integer id;
 
     @NotNull
     private String productName;
@@ -35,7 +35,7 @@ public class Product {
     @ManyToMany
     @NotNull
     @ToString.Exclude
-    private List<Picture> pictures;
+    private List<Attachment> pictures;
 
     @ManyToOne
     private Brand brand;

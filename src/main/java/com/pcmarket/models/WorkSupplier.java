@@ -17,7 +17,7 @@ public class WorkSupplier {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Integer id;
 
     @ManyToMany
     @ToString.Exclude
